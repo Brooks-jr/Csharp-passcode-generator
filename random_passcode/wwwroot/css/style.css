@@ -1,0 +1,10 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    padding-top: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Passcode Generator</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+    @{
+        <fieldset>
+        <legend><h3>Random Passcode (Passcode #@ViewBag.count)</h3></legend>
+        
+        <h1>@ViewBag.finalstring</h1>
+        
+        
+        <a href="/"><button>Generate</button></a>
+        
+        </fieldset>
+    }
+    </body>
+</html>
